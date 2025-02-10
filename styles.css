@@ -1,5 +1,23 @@
 body {
-    margin: 0;
-    background: lightblue;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 40px;
+    background-color: rgb(202, 233, 255);
+    color: #333;
+}
+h1 {
+    color: rgb(19, 49, 92);
+}
+h2 {
+    color: rgb(19, 64, 116);
+}
+.container {
+    max-width: 800px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.section {
+    margin-bottom: 20px;
 }
