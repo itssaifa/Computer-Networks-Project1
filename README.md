@@ -2,23 +2,23 @@
 
 ## Overview
 
-This project is a quick website made to demonstrate simple Domain & Hosting, Website Setup, and Networking Aspects.
+This project involves setting up a basic website made to demonstrate key networking concepts such as Domain & Hosting, Website Setup, and Networking Aspects.
 
 ## Team Members
 
 - Adnan Khan
-- Safia Samia
+- Saifa Samia
 - Christine Chong
 - Keziah Mundlapati
 
 ## Key Points
 
 - The website is hosted using **GitHub Pages**.
-- **Setup** using a combination of HTML and CSS to ensure clean and neat website design.
-- Security features with different types of **Encryption** were packaged with Github Pages, making the site completely secure.
-- Along with Github Pages, many **Networking Aspects** protocols were employed to make sure the site was up and running like 'ping and 'traceroute'.
+- **Setup** using a combination of HTML and CSS to ensure a clean and neat website design.
+- Security features with different types of **Encryption** were packaged with GitHub Pages, making the site completely secure.
+- Along with GitHub Pages, many **Networking Aspects** protocols were employed to ensure the site was up and running like 'ping and 'traceroute.'
 
 ## Website and Repository
 
-- **Website:** [GitHub Pages Link](https://adnan423.github.io/Computer-Networks-Project1/)
+- **Website:** [GitHub Pages](https://adnan423.github.io/Computer-Networks-Project1/)
 - **GitHub Repository:** [Project Repository](https://github.com/itssaifa/Computer-Networks-Project1)
