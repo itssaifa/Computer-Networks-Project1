@@ -15,7 +15,7 @@ This project is a quick website made to demonstrate simple Domain & Hosting, Web
 
 - The website is hosted using **GitHub Pages**.
 - **Setup** using a combination of HTML and CSS to ensure clean and neat website design.
-- Security features like **SSL/TLS encryption** were packaged with Github Pages, makibng the site completely secure.
+- Security features with different types of **Encryption** were packaged with Github Pages, making the site completely secure.
 - Along with Github Pages, many **Networking Aspects** protocols were employed to make sure the site was up and running like 'ping and 'traceroute'.
 
 ## Website and Repository
