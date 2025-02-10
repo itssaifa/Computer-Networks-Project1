@@ -7,7 +7,7 @@ This project is a quick website made to demonstrate simple Domain & Hosting, Web
 ## Team Members
 
 - Adnan Khan
-- Safia Samia
+- Saifa Samia
 - Christine Chong
 - Keziah Mundlapati
 
