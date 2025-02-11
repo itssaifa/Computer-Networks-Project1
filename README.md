@@ -3,6 +3,9 @@
 ## Overview
 
 This project involves setting up a basic website made to demonstrate key networking concepts such as Domain & Hosting, Website Setup, and Networking Aspects.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/13dfd707-7f19-4c20-a71c-7aad5a94c77a" alt="Screenshot" />
+</p>
 
 ## Team Members
 
