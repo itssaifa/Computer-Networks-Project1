@@ -23,5 +23,5 @@ This project involves setting up a basic website made to demonstrate key network
 
 ## Website and Repository
 
-- **Website:** [GitHub Pages](https://adnan423.github.io/Computer-Networks-Project1/)
+- **Website:** [GitHub Pages](https://itssaifa.github.io/Computer-Networks-Project1/)
 - **GitHub Repository:** [Project Repository](https://github.com/itssaifa/Computer-Networks-Project1)
