@@ -79,20 +79,23 @@
 </div>
 
 <div class="footer-banner">
-    <h2>More to come, stay tuned!</h2>
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHYzeXprdHE0djlrOXRndGhqYXVicjIyYTc5NnppcnRwZWNyZG51NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.gif" width="300" loading="lazy">
+    <div class="footer-banner-content">
+        <div class="footer-banner-left">
+            <h2>More to come, stay tuned!</h2>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHYzeXprdHE0djlrOXRndGhqYXVicjIyYTc5NnppcnRwZWNyZG51NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.gif" width="300" loading="lazy">
+        </div>
+        <div class="footer-banner-right">
+            <h2>Login</h2>
+            <form id="loginForm" action="login" method="POST">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
 </div>
 
-<!-- Login Section -->
-<div class="container login-section">
-    <h2>Login</h2>
-    <form id="loginForm" action="login" method="POST">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Login</button>
-    </form>
-</div>
