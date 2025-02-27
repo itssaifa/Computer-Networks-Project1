@@ -85,3 +85,48 @@ h1, h2 {
     margin-top: 15px;
     border-radius: 10px;
 }
+
+.login-section {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.3);
+}
+
+.login-section h2 {
+    color: #00FF00;
+    text-align: center;
+}
+
+.login-section label {
+    display: block;
+    color: #e0e0e0;
+    margin-bottom: 5px;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00FF00;
+    background-color: #333;
+    color: #e0e0e0;
+    border-radius: 4px;
+}
+
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    background-color: #00FF00;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.login-section button:hover {
+    background-color: #32CD32;
+}
