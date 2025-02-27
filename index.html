@@ -86,6 +86,7 @@
         </div>
         <div class="footer-banner-right">
             <h2>Login</h2>
+            <!-- Login Form with reCAPTCHA integration -->
             <form id="loginForm" action="login" method="POST">
                 <label for="username">Username:</label>
                 <input type="text" id="username" name="username" required>
@@ -93,9 +94,14 @@
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" required>
 
+                <!-- reCAPTCHA widget -->
+                <div class="g-recaptcha" data-sitekey="6LeAieQqAAAAANgdPqpaWht47kZnCVfe36pfzuxo"></div>
+
                 <button type="submit">Login</button>
             </form>
         </div>
     </div>
 </div>
 
+<!-- Google reCAPTCHA Script -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
