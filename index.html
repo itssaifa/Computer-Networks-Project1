@@ -3,11 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- Website Title -->
+    <!-- Website Title -->
     <title>Computer Networks Project</title>
     <link rel="stylesheet" href="styles.css"/>
 
-    <!-- Implemented the DOMPurify Libary -->
+    <!-- DOMPurify Libary -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.2.3/purify.min.js"></script>
 
     <!-- Google Analytics tag (gtag.js) -->
@@ -19,6 +19,9 @@
 
         gtag('config', 'G-Y7HE95C3C8');
     </script>
+
+    <!-- Google reCAPTCHA Script -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
@@ -68,11 +71,13 @@
         <h2>Security Enhancements</h2>
         <p><strong>✅ Enable HTTPS (SSL Certificate):</strong> GitHub Pages provides free HTTPS automatically.</p>
         <p><strong>✅ Protect Against XSS Attacks:</strong> Implemented DOMPurify to sanitize user input to prevent XSS.</p>
+        <p><strong>✅ Prevent Brute-Force Login Attacks:</strong> Added Google reCAPTCHA to block automated login attempts.</p>
     </div>
 
     <div class="section">
         <h2>Additional Enhancements</h2>
         <p><strong>✅ Performance Optimization:</strong> Implemented lazy loading images.</p>
+        <p><strong>✅ Deployment & Infrastructure:</strong> Website is hosted by GitHub Pages and GitHub automatically supports IPv6 for Pages.</p>
         <p><strong>✅ Networking Monitoring & Security Analysis:</strong> Implemented Google Analytics to track website traffic and user behavior.</p>
     
     </div>
@@ -103,5 +108,26 @@
     </div>
 </div>
 
-<!-- Google reCAPTCHA Script -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<!-- Javascript to sanitize username and password inputs -->
+<script>
+    // Sanitize username before submitting
+    document.getElementById('loginForm').addEventListener('submit', function(event) {
+        // Prevent the login form from submitting
+        event.preventDefault();
+        
+        // Get username and password inputs
+        var usernameInput = document.getElementById('username').value;
+        var passwordInput = document.getElementById('password').value;
+
+        // Sanitize the username and password inputs
+        var sanitizedUsername = DOMPurify.sanitize(usernameInput);
+        var sanitizedPassword = DOMPurify.sanitize(passwordInput);
+
+        // Show the sanitized username and password inputs
+        document.getElementById('username').value = sanitizedUsername;
+        document.getElementById('password').value = sanitizedPassword;
+
+        // Submit form with sanitized username & password
+        this.submit();
+    })
+</script>
